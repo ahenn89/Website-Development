@@ -1,0 +1,449 @@
+html {
+	background: #FFF8DC;
+	
+
+}
+header img {
+	width: 100%;
+	height: auto;
+}
+#logo img {
+	width: 100%;
+	height: auto;
+}
+/* NavBar */
+nav {
+	margin: 2px;
+	padding-left: 15%;
+
+}
+nav ul {
+	background: #5C2E00; 
+	background: linear-gradient(top, #5C2E00 0%, #663300 100%);  
+	background: -moz-linear-gradient(top, #5C2E00 0%, #663300 100%); 
+	background: -webkit-linear-gradient(top, #5C2E00 0%, #663300 100%); 
+	box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+	padding: 0 20px;
+	border-radius: 10px;  
+	list-style: none;
+	position: relative;
+	display: inline-table;
+	
+}
+nav ul:after {
+	content: ""; 
+	clear: both;
+	display: block;
+}
+nav ul li {
+	float: left;
+}
+nav ul li:hover {
+	background: #754719;
+
+}
+nav ul li:hover a {
+	color: #fff;
+	
+}
+	
+nav ul li a {
+	display: block; 
+	padding: 25px 40px;
+	color: #fff; 
+	text-decoration: none;
+}	
+nav ul ul {
+	background: #694016;
+	border-radius: 0px; 
+	padding: 0;
+	position: absolute; 
+	top: 100%;
+	display: none;
+}
+nav ul ul li {
+	float: none; 
+	border-top: 1px solid 	#522900;
+	border-bottom: 1px solid #663300;
+	position: relative;
+}
+nav ul ul li a {
+	padding: 15px 40px;
+	color: #fff;
+}	
+nav ul ul li a:hover {
+	background: #835930;
+}
+nav ul li:hover > ul {
+	display: block;
+}
+nav ul ul ul {
+	position: absolute; 
+	left: 100%; 
+	top:0;
+}
+/* Start of Main Content Home Page */
+#header {
+	width: 100%;
+	height: auto;
+	text-align: center;
+	font-size: 350%;
+	color: red;
+}
+#header2 {
+	font-size: 150%;
+	text-align: center;
+	padding-bottom: 3%;
+	border-bottom: 2px dotted #663300;
+	margin: 2%;
+	color: red;
+}
+#main{
+	
+
+}
+#main img {
+	margin: 2%;
+	height: auto;
+	padding-left: 32%;
+	
+}
+.main_header {
+	font-size: 250%;
+	text-align: center;
+	color: #6495ED;
+}
+.under {
+	text-align: center;
+	color: #FF00FF;
+}
+.text_color {
+	color: #FF69B4; 
+}
+.main_article {
+	text-align: left;
+	color: #663300;
+	font-size: 120%;
+	margin: 5%;
+	font-weight: 5px;
+}
+.border{
+	border-bottom: 2px dotted #663300;
+}
+#left {
+	border: 1px solid #663300;
+	padding: 1%;
+	width: 35%;
+	height: auto;
+	float: left;
+	text-align: center;
+	font-size: 150%;
+	margin: 5%;
+}
+.left {
+	text-decoration: none;
+	list-style: none;
+}
+#left img { 
+	width: 100%;
+	height: auto;
+}
+#middle {
+	border: 1px #663300;
+	padding: 1%;
+	width: 35%;
+	height: auto;
+	text-decoration: none;
+	float: right;
+	text-align: center;
+	font-size: 150%;
+	margin: 5%;
+}
+.middle {
+
+}
+#middle img {
+	width: 100%;
+	height: auto;
+}
+.right {
+
+}
+#right {
+
+}
+.right {
+
+}
+footer, #top, #bottom {
+	clear: both;
+	width: 100%;
+	color: #663300;
+}
+#top {
+	text-align: center;
+}
+#bottom {
+	font-size: 75%;
+}
+
+/*Start of Nursery Content*/
+#nursery {
+	position: relative;
+}
+#nursery_header {
+	width: 100%;
+	height: auto;
+	text-align: center;
+	font-size: 5em;
+	color: #663300;
+}
+#nursery_header2 {
+	width: 95%;
+	height: auto;
+	padding: 2%;
+	text-align: center;
+	color: #663300;
+	font-size: 1.5em;
+
+}
+#nursery_header3 {
+	width: 100%;
+	height: auto;
+	text-align: center;
+	font-size: 2em;
+	color: #663300;
+}
+
+
+/* First Set Photo Gallery*/
+#nursery_header_mom {
+	text-align: center;
+	color: #663300;
+	font-size: 200%;
+	margin: 5px;
+
+}
+div.nursery_p {
+	text-align: center;
+	color: #663300;
+	font-size: 150%;
+	margin: 5px;
+}
+#first_set {
+	position: relative;
+	
+}
+div.img {
+    margin: 5px;
+    padding: 8px;
+    border: 1px solid #663300;
+    height: auto;
+    width: auto;
+    float: left;
+    text-align: center;
+}
+div.puppies {
+	margin: 2%;
+    padding: 2%;
+    border: 1px solid #663300;
+    height: auto;
+    width: auto;
+    float: left;
+    text-align: center;
+}
+div.img img {
+    display: inline;
+    margin: 5px;
+}
+
+div.desc {
+    text-align: center;
+    font-weight: normal;
+    width: 120px;
+	height: auto;
+    margin: 5px;
+}
+
+/*Second Set Photo*/
+div.second_set {
+	padding-top: 100%;
+	position: relative;
+}
+#nursery_header_mom2 {
+	text-align: center;
+	color: #663300;
+	font-size: 200%;
+	margin: 5px;
+	
+}
+div.nursery_p2 {
+	text-align: center;
+	color: #663300;
+	font-size: 150%;
+	margin: 5px;
+}
+div.img2 {
+    margin: 5%;
+    padding: 10px;
+    border: 1px solid #663300;
+    height: auto;
+    width: auto;
+    float: left;
+    text-align: center;
+}
+div.desc2 {
+    text-align: center;
+    font-weight: normal;
+    width: 120px;
+	height: auto;
+    margin: 5px;
+}
+div.puppies2 {
+	margin: 2%;
+    padding: 2%;
+    border: 1px solid #663300;
+    height: auto;
+    width: auto;
+    float: left;
+    text-align: center;
+}
+/*Other Photos*/
+#other_pics {
+	padding-top: 100%;
+	position: relative;
+}
+
+div.nursery_left {
+    margin: 5%;
+    padding: 10px;
+    border: 1px solid #663300;
+    float: left;
+    text-align: left;
+}
+div.desc3 {
+    text-align: left;
+    font-weight: normal;
+    margin: 5px;
+}
+
+div.nursery_middle {
+    margin: 5%;
+    padding: 10px;
+    border: 1px solid #663300;
+    float: left;
+    text-align: left;
+}
+
+/*Resources Page*/
+.resources_header {
+	font-size: 250%;
+	text-align: center;
+	color: #6495ED;
+}
+.border2 {
+	border-left: 2px dotted #663300;
+}
+#left_training {
+	width: 35%;
+	border-right: 2px solid #663300;
+	float: left;
+	margin-top: 2%;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+#middle_training {
+	float: left;
+	margin-top: 2%;
+	width: 35%;
+	padding-left: 10%;
+}
+.training  ul{
+	list-style: none;
+	margin-left: 1.25em;
+	margin-bottom: 1.5em;
+}
+.training li {
+	width: 200px;
+	margin-bottom: .5em;
+	border: 2px solid brown;
+
+}
+.training li a {
+	display: block;
+	padding: .5em 0 .5em 1.5em;
+	text-decoration: none;
+	font-weight: bold;
+	color: brown;
+}
+/*vet disease & reproduction Links*/
+#dog_ref {
+	border-right: 2px solid #663300;
+	float: left;
+	margin-top: 2%;
+	padding-right: 5%;
+	padding-left: 7%;
+	width: 22%;
+}
+#dog_ref2 {
+	border-right: 2px solid #663300;
+	float: left;
+	margin-top: 2%;
+	width: 22%;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+#dog_ref3 {
+	float: left;
+	margin-top: 2%;
+	padding-left: 5%;
+	padding-right: 5%;
+	width: 22%;
+}
+/*dog ref*/
+#center_dog {
+	width: 100%;
+	height: auto;
+	padding-left: 40%;
+}
+/*Puppy Page*/
+h1 {
+	color: red;
+	text-align: center;
+}
+h2 {
+	color: blue;
+	font-weight: bold;
+	text-align: center;
+
+}
+/*fav pics page*/
+.puppies3{
+	float: left;
+	display: inline;
+	margin: 5%;
+	width: auto;
+	height: auto;
+	color: brown;
+}
+.puppies3 img {
+	border: 2px solid #663300;
+}
+#puppy_set {
+	width: 100%;
+
+}
+/*pedigree table*/
+th {
+	vertical-align: top;
+	text-align: center;
+	border: 1px solid #663300;
+	color: #663300;
+}
+/*females*/
+.females {
+	margin: 5%;
+}
+.females img {
+	padding-left: 12%;
+}
