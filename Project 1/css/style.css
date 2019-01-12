@@ -1,0 +1,135 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+html{ 
+	background: #CC99CC;
+	color: white;
+}
+#grid_3 {
+	margin: 5px;
+	padding: 25px;
+}
+.grid_3 {
+	margin: 5px;
+}
+.grid_3 img {
+	margin: 10px;
+	
+}
+#grid_3_pics {
+	padding-left: 10px;
+}
+#grid_4_btn {
+	
+}
+.grid_4 {
+	outline: 1px solid #00CCCC;
+	margin-top: 50px;
+	font-size: 20px;
+}
+.grid_4 img {
+	padding-left: 25px;
+}
+#grid_5 {
+	margin: 5px;
+}
+.grid_5 {
+
+}
+.grid_5 img {
+	padding: 25px;
+}
+.grid_6 {
+
+}
+.grid_6 img {
+	padding-left: 90px;
+}
+.grid_8 {
+  margin-left: 10px;
+  margin-right: 10px;
+  
+}
+.grid_9 h1 {
+	font-size: 50px;
+
+}
+.grid_9 img {
+	padding-left: 25px;
+}
+#grid_9  img{
+	padding-left: 100px;
+}
+.grid_9{
+	font-size: 20px;
+}
+.grid_12 {
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-top: 10px;
+}
+.grid_12 h1 {
+	font-size: 25px;
+}
+
+.grid_12 img {
+	width: 960px;
+}
+.grid_10 {
+	margin: 5px;
+	
+}
+/*Start of drop down nav CSS */
+#cssmenu {
+	
+	width: 18px;
+	height: 50px;
+	margin: 0;
+	
+	background-color: #00E6E6;
+	
+}
+.navbar {
+	height: 50px;
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	border-right: #E6E6E6;
+}
+.navbar li {
+	height: auto;
+	width: 120px;
+	float: left;
+	text-align: center;
+	list-style: none;
+	font: normal bold 12px;
+	padding: 0;
+	margin: 0;
+	background-color: #00E6E6;
+	
+}
+.navbar a {
+	padding: 15px 0;
+	color: white;
+	text-decoration: none;
+	display: block;
+}
+
+.navbar li ul 	{
+	display: none;  /* Hides the drop-down menu */
+	height: auto;									
+	margin: 0; /* Aligns drop-down box underneath the menu item */
+	padding: 0; /* Aligns drop-down box underneath the menu item */			
+}				
+
+.navbar li:hover ul {
+	display: block; /* Displays the drop-down box when the menu item is hovered over */
+}
+
+
+
+
+
+
+
+
+
